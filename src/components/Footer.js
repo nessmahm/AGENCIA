@@ -7,7 +7,7 @@ function Footer() {
     <footer>
         <h4 >AGENCIA</h4>
         <div class='icons'>
-        <li><IoLogoWhatsapp/></li>
+        <li ><IoLogoWhatsapp/></li>
         <li><AiFillInstagram/></li>
         <li><BsFacebook/></li>
         </div>

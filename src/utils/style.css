@@ -522,3 +522,9 @@ padding:5px;
 }
  
 }
+
+.icons li {
+list-style: none;
+margin-right:10px ;
+cursor: pointer;
+}
