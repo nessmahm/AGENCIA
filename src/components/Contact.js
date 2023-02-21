@@ -1,6 +1,5 @@
 import React from 'react'
 import GoogleMaps from './GoogleMaps'
-console.log(process.env.REACT_APP_MAPS_API_KEY)
 function Contact() {
     
   return (

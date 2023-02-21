@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer>
         <h4 >AGENCIA</h4>
-        <div class='icons'>
+        <div className='icons'>
         <li ><IoLogoWhatsapp/></li>
         <li><AiFillInstagram/></li>
         <li><BsFacebook/></li>

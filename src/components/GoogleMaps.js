@@ -11,11 +11,6 @@ const center = {
   lng: 10.979714
 };
 
-const location = {
-  address: '1600 Amphitheatre Parkway, Mountain View, california.',
-  lat: 33.859186,
-  lng: 10.979714,
-}
 function GoogleMaps() {
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: "AIzaSyANwmF7pwcckqwAloki1cMFymZqnhtXqdg"

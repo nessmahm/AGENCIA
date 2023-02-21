@@ -122,7 +122,6 @@ margin-left: 70px;
     align-items: center;
     justify-content: center;
     background-image: url(../assets/images/snow-view.jpg);
-    padding :;
 }
 
 
@@ -254,7 +253,7 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
 
 .chamber-element{
     background-color: rgb(150, 185, 160);
-    padding : 15px ;
+    padding : 10px ;
     width: 100%;
 
 }
@@ -528,3 +527,21 @@ list-style: none;
 margin-right:10px ;
 cursor: pointer;
 }
+
+.leftArrow , .rightArrow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    size: 3px;
+    background-color: rgba(148, 148, 148, 0.6);
+    width: 30px;
+    height: 70px;
+}
+
+.leftArrow:hover , .rightArrow:hover {
+
+    background-color: rgba(124, 124, 124, 0.6);
+    transform: scale(1.09);
+    cursor: pointer;
+} 
