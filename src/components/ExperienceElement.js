@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 const Button = styled.a`
 background-color: ${props=>props.couleur || "white "};
-max-width:200px;
 `;
 function ExperienceElement({article}) {
   return (

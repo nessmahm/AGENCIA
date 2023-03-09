@@ -226,6 +226,7 @@ font-weight: bold;
 
 .experience-button {
     color: rgb(61, 56, 56);
+    padding :  0px 20px;
 }
 
 .home .elements .section-title {
@@ -462,14 +463,14 @@ cursor: pointer;
     justify-content: center;
     color:white;
     size: 3px;
-    background-color: rgba(148, 148, 148, 0.6);
+    background-color: rgba(218, 230, 221, 0.6);
     width: 20px;
     height: 70px;
 }
 
 .leftArrow:hover , .rightArrow:hover {
 
-    background-color: rgba(124, 124, 124, 0.6);
+    background-color: rgba(237, 231, 231, 0.6);
     transform: scale(1.09);
     cursor: pointer;
 } 
