@@ -10,14 +10,6 @@ import { useState } from 'react';
 
 const PetitdejImg = styled.div `
 background-image: ${ (props) => `url(${props.bg})` };
-background-position: center ;
-background-repeat: no-repeat;
-background-size: contain;
-width:350px;
-height:200px;
-display:flex;
-justify-content: space-between;
-align-items:center;
 `
 
 function Petitdej() {
@@ -43,7 +35,7 @@ function Petitdej() {
                 </div>
           </div>
 
-          <PetitdejImg  bg={images[MenuimgIndex]}>
+          <PetitdejImg  className = "background-img" bg={images[MenuimgIndex]}>
             <div className='leftArrow' onClick={()=> setMenuimgIndex ( MenuimgIndex-1 == -1 ? images.length-1 : MenuimgIndex-1 %images.length )  } > <IoIosArrowBack/></div> 
             <div className='rightArrow'  onClick={()=> setMenuimgIndex ( MenuimgIndex+1 == images.length ? 0 : MenuimgIndex+1 %images.length ) } ><IoIosArrowForward/></div> 
             </PetitdejImg>

@@ -441,6 +441,40 @@ footer p{
 
 }
 
+.icons li {
+list-style: none;
+margin-right:10px ;
+cursor: pointer;
+}
+.background-img {
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:350px;
+    height:200px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.leftArrow , .rightArrow{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    size: 3px;
+    background-color: rgba(148, 148, 148, 0.6);
+    width: 20px;
+    height: 70px;
+}
+
+.leftArrow:hover , .rightArrow:hover {
+
+    background-color: rgba(124, 124, 124, 0.6);
+    transform: scale(1.09);
+    cursor: pointer;
+} 
+
+
 @media screen and (max-width: 1016px)
 {
     
@@ -519,29 +553,7 @@ max-width: 100%;
 .petit-dej .img-container {
 padding:5px;
 }
- 
+ .background-img {
+    max-width : 290px;
 }
-
-.icons li {
-list-style: none;
-margin-right:10px ;
-cursor: pointer;
 }
-
-.leftArrow , .rightArrow{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
-    size: 3px;
-    background-color: rgba(148, 148, 148, 0.6);
-    width: 30px;
-    height: 70px;
-}
-
-.leftArrow:hover , .rightArrow:hover {
-
-    background-color: rgba(124, 124, 124, 0.6);
-    transform: scale(1.09);
-    cursor: pointer;
-} 
